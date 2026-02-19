@@ -5,19 +5,19 @@
 ```js
 // Simply replace `react-ga` with `react-ga4`
 // import ReactGA from "react-ga";
-import ReactGA from "react-ga4";
+import ReactGA from "react-ga4-rc";
 ```
 
 ## Install
 
 ```bash
-npm i react-ga4
+npm i react-ga4-rc
 ```
 
 ## Usage
 
 ```js
-import ReactGA from "react-ga4";
+import ReactGA from "react-ga4-rc";
 
 ReactGA.initialize("your GA measurement id");
 ReactGA.send("pageview");
@@ -117,7 +117,7 @@ Deprecated Use `enhanced measurement` feature in Google Analytics.
 ### Extending
 
 ```js
-import { ReactGAImplementation } from "react-ga4";
+import { ReactGAImplementation } from "react-ga4-rc";
 
 class MyCustomOverriddenClass extends ReactGAImplementation {}
 
